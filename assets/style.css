@@ -18,8 +18,8 @@ h4 {
     color: rgb(11, 112, 87);
 }
 body {
-    margin-left: 19%;
-    margin-right: 19%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 nav h1 {
     font-family: 'Roboto', sans-serif;
@@ -28,14 +28,13 @@ section>h3 {
     color: red;
 
 }
-.link {
-    color: aqua;
-}
 article>div>h3 {
     font-family: 'Pangolin', cursive;
 }
 article hr {
     color: rgb(0, 255, 136);
     margin: 0%;
-    border: solid;
+}
+.intro h1 {
+    margin-left: 2em;
 }
