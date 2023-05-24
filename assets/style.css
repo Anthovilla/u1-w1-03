@@ -1,6 +1,6 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 header img {
     height: 3em;
 }
@@ -23,4 +23,19 @@ body {
 }
 nav h1 {
     font-family: 'Roboto', sans-serif;
+}
+section>h3 {
+    color: red;
+
+}
+.link {
+    color: aqua;
+}
+article>div>h3 {
+    font-family: 'Pangolin', cursive;
+}
+article hr {
+    color: rgb(0, 255, 136);
+    margin: 0%;
+    border: solid;
 }
