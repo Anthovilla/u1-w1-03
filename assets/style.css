@@ -1,40 +1,63 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-header img {
-    height: 3em;
+body {
+margin: auto;
+margin-left: 30%;
+margin-right: 30%;
+}
+.container {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    width: 30vh;
+}
+#container {
+    display: flex;
+}
+#container h1 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img {
+    margin: auto;
+width: 100%;
 }
 header hr {
     color: rgb(255, 230, 0);
     margin: 0%;
-    border: solid;
+border: solid;
 }
 header h4 {
     margin: 0%;
-    background-color: rgba(250, 249, 188, 0.733);
+    background-color: rgb(255 253 158 / 40%);
     padding: 1em;
+    color: #4bdead;
+    text-align: center;
+    font-size: 1.5vh;
 }
-h4 {
-    color: rgb(11, 112, 87);
+section  h4 {
+margin-bottom: 0;
+color: rgb(241, 20, 20);
 }
-body {
-    margin-left: 30%;
-    margin-right: 30%;
+.featured {
+    margin-top: 0.5vh;
 }
-nav h1 {
-    font-family: 'Roboto', sans-serif;
-}
-section>h3 {
-    color: red;
-
+nav>p {
+    text-align: center;
+    margin: 1vh;
+    font-size: 1.5vh;
+    color: #6a6a6a87;
 }
 article>div>h3 {
     font-family: 'Pangolin', cursive;
 }
 article hr {
-    color: rgb(0, 255, 136);
+    color: rgba(0, 247, 255, 0.541);
     margin: 0%;
-}
-.intro h1 {
-    margin-left: 2em;
+    border: solid;
 }
