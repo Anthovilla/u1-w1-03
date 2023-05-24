@@ -1,0 +1,26 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+header img {
+    height: 3em;
+}
+header hr {
+    color: rgb(255, 230, 0);
+    margin: 0%;
+    border: solid;
+}
+header h4 {
+    margin: 0%;
+    background-color: rgba(250, 249, 188, 0.733);
+    padding: 1em;
+}
+h4 {
+    color: rgb(11, 112, 87);
+}
+body {
+    margin-left: 19%;
+    margin-right: 19%;
+}
+nav h1 {
+    font-family: 'Roboto', sans-serif;
+}
